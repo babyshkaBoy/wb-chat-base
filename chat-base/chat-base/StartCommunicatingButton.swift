@@ -16,7 +16,7 @@ struct StartCommunicatingButton: View {
             //action
         } label: {
             Text("Пользовательское соглашение")
-                .font(.system(size: 14, weight: .medium))
+                .font(.system(size: 14, weight: .bold))
                 .foregroundStyle(Color("neutralActive"))
         }
         
