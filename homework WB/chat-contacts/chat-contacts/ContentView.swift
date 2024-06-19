@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  chat-base
+//  chat-contacts
 //
-//  Created by Азамат Баев on 05.06.2024.
+//  Created by Азамат Баев on 11.06.2024.
 //
 
 import SwiftUI

@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E53789C32C1DAA8900D5A1C0 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53789C22C1DAA8900D5A1C0 /* SearchBar.swift */; };
+		E53789C52C1DD7A800D5A1C0 /* DetailScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53789C42C1DD7A800D5A1C0 /* DetailScreenView.swift */; };
+		E5386B622C1ED78D00BED56E /* CustomIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5386B612C1ED78D00BED56E /* CustomIcons.swift */; };
+		E54B04492C1A245B00C66D56 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54B04482C1A245B00C66D56 /* ContainerView.swift */; };
+		E54B044C2C1A26A300C66D56 /* ContactsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54B044B2C1A26A300C66D56 /* ContactsScreenView.swift */; };
+		E54B044F2C1A289C00C66D56 /* ContactsView_Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54B044E2C1A289C00C66D56 /* ContactsView_Tab.swift */; };
+		E5869A022C22F466009F82E0 /* NavigationTransitions in Frameworks */ = {isa = PBXBuildFile; productRef = E5869A012C22F466009F82E0 /* NavigationTransitions */; };
+		E58BD1ED2C18594400D65E25 /* chat_contactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58BD1EC2C18594400D65E25 /* chat_contactsApp.swift */; };
+		E58BD1F12C18594500D65E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E58BD1F02C18594500D65E25 /* Assets.xcassets */; };
+		E58BD1F42C18594500D65E25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E58BD1F32C18594500D65E25 /* Preview Assets.xcassets */; };
+		E58BD1FB2C18767900D65E25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58BD1FA2C18767900D65E25 /* ContentView.swift */; };
+		E58BD1FD2C18799D00D65E25 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58BD1FC2C18799D00D65E25 /* Contacts.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E53789C22C1DAA8900D5A1C0 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		E53789C42C1DD7A800D5A1C0 /* DetailScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenView.swift; sourceTree = "<group>"; };
+		E5386B612C1ED78D00BED56E /* CustomIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIcons.swift; sourceTree = "<group>"; };
+		E54B04482C1A245B00C66D56 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		E54B044B2C1A26A300C66D56 /* ContactsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsScreenView.swift; sourceTree = "<group>"; };
+		E54B044E2C1A289C00C66D56 /* ContactsView_Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView_Tab.swift; sourceTree = "<group>"; };
+		E58BD1E92C18594400D65E25 /* chat-contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chat-contacts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58BD1EC2C18594400D65E25 /* chat_contactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chat_contactsApp.swift; sourceTree = "<group>"; };
+		E58BD1F02C18594500D65E25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E58BD1F32C18594500D65E25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E58BD1FA2C18767900D65E25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E58BD1FC2C18799D00D65E25 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E58BD1E62C18594400D65E25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5869A022C22F466009F82E0 /* NavigationTransitions in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E54B044A2C1A266600C66D56 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				E54B044B2C1A26A300C66D56 /* ContactsScreenView.swift */,
+				E53789C22C1DAA8900D5A1C0 /* SearchBar.swift */,
+				E53789C42C1DD7A800D5A1C0 /* DetailScreenView.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		E54B044D2C1A26F500C66D56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E58BD1FC2C18799D00D65E25 /* Contacts.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E58BD1E02C18594400D65E25 = {
+			isa = PBXGroup;
+			children = (
+				E58BD1EB2C18594400D65E25 /* chat-contacts */,
+				E58BD1EA2C18594400D65E25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E58BD1EA2C18594400D65E25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E58BD1E92C18594400D65E25 /* chat-contacts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E58BD1EB2C18594400D65E25 /* chat-contacts */ = {
+			isa = PBXGroup;
+			children = (
+				E58BD1EC2C18594400D65E25 /* chat_contactsApp.swift */,
+				E58BD1FA2C18767900D65E25 /* ContentView.swift */,
+				E54B044E2C1A289C00C66D56 /* ContactsView_Tab.swift */,
+				E54B044A2C1A266600C66D56 /* Contacts */,
+				E54B044D2C1A26F500C66D56 /* Model */,
+				E58BD1F02C18594500D65E25 /* Assets.xcassets */,
+				E58BD1F22C18594500D65E25 /* Preview Content */,
+			);
+			path = "chat-contacts";
+			sourceTree = "<group>";
+		};
+		E58BD1F22C18594500D65E25 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E54B04482C1A245B00C66D56 /* ContainerView.swift */,
+				E58BD1F32C18594500D65E25 /* Preview Assets.xcassets */,
+				E5386B612C1ED78D00BED56E /* CustomIcons.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E58BD1E82C18594400D65E25 /* chat-contacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58BD1F72C18594500D65E25 /* Build configuration list for PBXNativeTarget "chat-contacts" */;
+			buildPhases = (
+				E58BD1E52C18594400D65E25 /* Sources */,
+				E58BD1E62C18594400D65E25 /* Frameworks */,
+				E58BD1E72C18594400D65E25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "chat-contacts";
+			packageProductDependencies = (
+				E5869A012C22F466009F82E0 /* NavigationTransitions */,
+			);
+			productName = "chat-contacts";
+			productReference = E58BD1E92C18594400D65E25 /* chat-contacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E58BD1E12C18594400D65E25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E58BD1E82C18594400D65E25 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = E58BD1E42C18594400D65E25 /* Build configuration list for PBXProject "chat-contacts" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E58BD1E02C18594400D65E25;
+			packageReferences = (
+				E5869A002C22F466009F82E0 /* XCRemoteSwiftPackageReference "swiftui-navigation-transitions" */,
+			);
+			productRefGroup = E58BD1EA2C18594400D65E25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E58BD1E82C18594400D65E25 /* chat-contacts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E58BD1E72C18594400D65E25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58BD1F42C18594500D65E25 /* Preview Assets.xcassets in Resources */,
+				E58BD1F12C18594500D65E25 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E58BD1E52C18594400D65E25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53789C52C1DD7A800D5A1C0 /* DetailScreenView.swift in Sources */,
+				E53789C32C1DAA8900D5A1C0 /* SearchBar.swift in Sources */,
+				E54B044F2C1A289C00C66D56 /* ContactsView_Tab.swift in Sources */,
+				E58BD1FD2C18799D00D65E25 /* Contacts.swift in Sources */,
+				E5386B622C1ED78D00BED56E /* CustomIcons.swift in Sources */,
+				E54B04492C1A245B00C66D56 /* ContainerView.swift in Sources */,
+				E58BD1FB2C18767900D65E25 /* ContentView.swift in Sources */,
+				E58BD1ED2C18594400D65E25 /* chat_contactsApp.swift in Sources */,
+				E54B044C2C1A26A300C66D56 /* ContactsScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E58BD1F52C18594500D65E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E58BD1F62C18594500D65E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E58BD1F82C18594500D65E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chat-contacts/Preview Content\"";
+				DEVELOPMENT_TEAM = DWL5A95D8B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Azamat.chat-contacts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E58BD1F92C18594500D65E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chat-contacts/Preview Content\"";
+				DEVELOPMENT_TEAM = DWL5A95D8B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Azamat.chat-contacts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E58BD1E42C18594400D65E25 /* Build configuration list for PBXProject "chat-contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58BD1F52C18594500D65E25 /* Debug */,
+				E58BD1F62C18594500D65E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E58BD1F72C18594500D65E25 /* Build configuration list for PBXNativeTarget "chat-contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58BD1F82C18594500D65E25 /* Debug */,
+				E58BD1F92C18594500D65E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E5869A002C22F466009F82E0 /* XCRemoteSwiftPackageReference "swiftui-navigation-transitions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/davdroman/swiftui-navigation-transitions.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.13.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E5869A012C22F466009F82E0 /* NavigationTransitions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5869A002C22F466009F82E0 /* XCRemoteSwiftPackageReference "swiftui-navigation-transitions" */;
+			productName = NavigationTransitions;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E58BD1E12C18594400D65E25 /* Project object */;
+}

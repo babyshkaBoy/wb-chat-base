@@ -14,6 +14,14 @@
 		E509A9142C1088AC00CAFABD /* PhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509A9132C1088AC00CAFABD /* PhoneNumberView.swift */; };
 		E509A9162C10B73700CAFABD /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509A9152C10B73700CAFABD /* OnboardView.swift */; };
 		E509A9182C10BA0300CAFABD /* StartCommunicatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509A9172C10BA0300CAFABD /* StartCommunicatingButton.swift */; };
+		E5869A0B2C22FF4D009F82E0 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A062C22FF4D009F82E0 /* Contacts.swift */; };
+		E5869A0C2C22FF4D009F82E0 /* DetailScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A072C22FF4D009F82E0 /* DetailScreenView.swift */; };
+		E5869A0D2C22FF4D009F82E0 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A082C22FF4D009F82E0 /* SearchBar.swift */; };
+		E5869A0E2C22FF4D009F82E0 /* ContactsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A092C22FF4D009F82E0 /* ContactsScreenView.swift */; };
+		E5869A0F2C22FF4D009F82E0 /* ContactsView_Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A0A2C22FF4D009F82E0 /* ContactsView_Tab.swift */; };
+		E5869A122C22FF7B009F82E0 /* NavigationTransitions in Frameworks */ = {isa = PBXBuildFile; productRef = E5869A112C22FF7B009F82E0 /* NavigationTransitions */; };
+		E5869A142C23005B009F82E0 /* CustomIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A132C23005B009F82E0 /* CustomIcons.swift */; };
+		E5869A172C231F83009F82E0 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A162C231F83009F82E0 /* ContactCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +33,13 @@
 		E509A9132C1088AC00CAFABD /* PhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberView.swift; sourceTree = "<group>"; };
 		E509A9152C10B73700CAFABD /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
 		E509A9172C10BA0300CAFABD /* StartCommunicatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCommunicatingButton.swift; sourceTree = "<group>"; };
+		E5869A062C22FF4D009F82E0 /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		E5869A072C22FF4D009F82E0 /* DetailScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailScreenView.swift; sourceTree = "<group>"; };
+		E5869A082C22FF4D009F82E0 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		E5869A092C22FF4D009F82E0 /* ContactsScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsScreenView.swift; sourceTree = "<group>"; };
+		E5869A0A2C22FF4D009F82E0 /* ContactsView_Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsView_Tab.swift; sourceTree = "<group>"; };
+		E5869A132C23005B009F82E0 /* CustomIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomIcons.swift; sourceTree = "<group>"; };
+		E5869A162C231F83009F82E0 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5869A122C22FF7B009F82E0 /* NavigationTransitions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,10 +75,8 @@
 			children = (
 				E509A9052C107CD800CAFABD /* chat_baseApp.swift */,
 				E509A9072C107CD800CAFABD /* ContentView.swift */,
-				E509A9152C10B73700CAFABD /* OnboardView.swift */,
-				E509A9172C10BA0300CAFABD /* StartCommunicatingButton.swift */,
-				E509A9132C1088AC00CAFABD /* PhoneNumberView.swift */,
-				E509A9092C107CD900CAFABD /* Assets.xcassets */,
+				E5869A052C22FF12009F82E0 /* Homework2 */,
+				E5869A152C230405009F82E0 /* Homework1 */,
 				E509A90B2C107CD900CAFABD /* Preview Content */,
 			);
 			path = "chat-base";
@@ -72,8 +86,33 @@
 			isa = PBXGroup;
 			children = (
 				E509A90C2C107CD900CAFABD /* Preview Assets.xcassets */,
+				E5869A132C23005B009F82E0 /* CustomIcons.swift */,
+				E509A9092C107CD900CAFABD /* Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E5869A052C22FF12009F82E0 /* Homework2 */ = {
+			isa = PBXGroup;
+			children = (
+				E5869A0A2C22FF4D009F82E0 /* ContactsView_Tab.swift */,
+				E5869A092C22FF4D009F82E0 /* ContactsScreenView.swift */,
+				E5869A082C22FF4D009F82E0 /* SearchBar.swift */,
+				E5869A072C22FF4D009F82E0 /* DetailScreenView.swift */,
+				E5869A162C231F83009F82E0 /* ContactCell.swift */,
+				E5869A062C22FF4D009F82E0 /* Contacts.swift */,
+			);
+			path = Homework2;
+			sourceTree = "<group>";
+		};
+		E5869A152C230405009F82E0 /* Homework1 */ = {
+			isa = PBXGroup;
+			children = (
+				E509A9152C10B73700CAFABD /* OnboardView.swift */,
+				E509A9172C10BA0300CAFABD /* StartCommunicatingButton.swift */,
+				E509A9132C1088AC00CAFABD /* PhoneNumberView.swift */,
+			);
+			path = Homework1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,6 +131,9 @@
 			dependencies = (
 			);
 			name = "chat-base";
+			packageProductDependencies = (
+				E5869A112C22FF7B009F82E0 /* NavigationTransitions */,
+			);
 			productName = "chat-base";
 			productReference = E509A9022C107CD800CAFABD /* chat-base.app */;
 			productType = "com.apple.product-type.application";
@@ -120,6 +162,9 @@
 				Base,
 			);
 			mainGroup = E509A8F92C107CD800CAFABD;
+			packageReferences = (
+				E5869A102C22FF7B009F82E0 /* XCRemoteSwiftPackageReference "swiftui-navigation-transitions" */,
+			);
 			productRefGroup = E509A9032C107CD800CAFABD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,10 +191,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5869A172C231F83009F82E0 /* ContactCell.swift in Sources */,
 				E509A9162C10B73700CAFABD /* OnboardView.swift in Sources */,
+				E5869A0F2C22FF4D009F82E0 /* ContactsView_Tab.swift in Sources */,
 				E509A9142C1088AC00CAFABD /* PhoneNumberView.swift in Sources */,
+				E5869A0B2C22FF4D009F82E0 /* Contacts.swift in Sources */,
+				E5869A0C2C22FF4D009F82E0 /* DetailScreenView.swift in Sources */,
 				E509A9182C10BA0300CAFABD /* StartCommunicatingButton.swift in Sources */,
+				E5869A0D2C22FF4D009F82E0 /* SearchBar.swift in Sources */,
 				E509A9082C107CD800CAFABD /* ContentView.swift in Sources */,
+				E5869A0E2C22FF4D009F82E0 /* ContactsScreenView.swift in Sources */,
+				E5869A142C23005B009F82E0 /* CustomIcons.swift in Sources */,
 				E509A9062C107CD800CAFABD /* chat_baseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +410,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E5869A102C22FF7B009F82E0 /* XCRemoteSwiftPackageReference "swiftui-navigation-transitions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/davdroman/swiftui-navigation-transitions.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.13.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E5869A112C22FF7B009F82E0 /* NavigationTransitions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5869A102C22FF7B009F82E0 /* XCRemoteSwiftPackageReference "swiftui-navigation-transitions" */;
+			productName = NavigationTransitions;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E509A8FA2C107CD800CAFABD /* Project object */;
 }
