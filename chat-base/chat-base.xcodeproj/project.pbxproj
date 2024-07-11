@@ -14,6 +14,20 @@
 		E509A9142C1088AC00CAFABD /* PhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509A9132C1088AC00CAFABD /* PhoneNumberView.swift */; };
 		E509A9162C10B73700CAFABD /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509A9152C10B73700CAFABD /* OnboardView.swift */; };
 		E509A9182C10BA0300CAFABD /* StartCommunicatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509A9172C10BA0300CAFABD /* StartCommunicatingButton.swift */; };
+		E54474B22C358387008FE147 /* CalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54474B12C358387008FE147 /* CalendarApp.swift */; };
+		E54474C02C358413008FE147 /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54474BD2C358413008FE147 /* ScreenView.swift */; };
+		E54474C12C358413008FE147 /* ScreenView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54474BE2C358413008FE147 /* ScreenView+Extension.swift */; };
+		E54474C22C358413008FE147 /* StringInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54474BF2C358413008FE147 /* StringInterpolation.swift */; };
+		E5869A0B2C22FF4D009F82E0 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A062C22FF4D009F82E0 /* Contacts.swift */; };
+		E5869A0C2C22FF4D009F82E0 /* DetailScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A072C22FF4D009F82E0 /* DetailScreenView.swift */; };
+		E5869A0D2C22FF4D009F82E0 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A082C22FF4D009F82E0 /* SearchBar.swift */; };
+		E5869A0E2C22FF4D009F82E0 /* ContactsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A092C22FF4D009F82E0 /* ContactsScreenView.swift */; };
+		E5869A0F2C22FF4D009F82E0 /* ContactsView_Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A0A2C22FF4D009F82E0 /* ContactsView_Tab.swift */; };
+		E5869A122C22FF7B009F82E0 /* NavigationTransitions in Frameworks */ = {isa = PBXBuildFile; productRef = E5869A112C22FF7B009F82E0 /* NavigationTransitions */; };
+		E5869A142C23005B009F82E0 /* CustomIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A132C23005B009F82E0 /* CustomIcons.swift */; };
+		E5869A172C231F83009F82E0 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A162C231F83009F82E0 /* ContactCell.swift */; };
+		E58BC2812C401DEA00E87DB5 /* DetailProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58BC2802C401DEA00E87DB5 /* DetailProfileView.swift */; };
+		E58BC2832C401E5900E87DB5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58BC2822C401E5900E87DB5 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,10 +39,32 @@
 		E509A9132C1088AC00CAFABD /* PhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberView.swift; sourceTree = "<group>"; };
 		E509A9152C10B73700CAFABD /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
 		E509A9172C10BA0300CAFABD /* StartCommunicatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCommunicatingButton.swift; sourceTree = "<group>"; };
+		E54474AF2C358387008FE147 /* Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E54474B12C358387008FE147 /* CalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarApp.swift; sourceTree = "<group>"; };
+		E54474BD2C358413008FE147 /* ScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
+		E54474BE2C358413008FE147 /* ScreenView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScreenView+Extension.swift"; sourceTree = "<group>"; };
+		E54474BF2C358413008FE147 /* StringInterpolation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringInterpolation.swift; sourceTree = "<group>"; };
+		E5869A062C22FF4D009F82E0 /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		E5869A072C22FF4D009F82E0 /* DetailScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailScreenView.swift; sourceTree = "<group>"; };
+		E5869A082C22FF4D009F82E0 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		E5869A092C22FF4D009F82E0 /* ContactsScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsScreenView.swift; sourceTree = "<group>"; };
+		E5869A0A2C22FF4D009F82E0 /* ContactsView_Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsView_Tab.swift; sourceTree = "<group>"; };
+		E5869A132C23005B009F82E0 /* CustomIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomIcons.swift; sourceTree = "<group>"; };
+		E5869A162C231F83009F82E0 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		E58BC2802C401DEA00E87DB5 /* DetailProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProfileView.swift; sourceTree = "<group>"; };
+		E58BC2822C401E5900E87DB5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E509A8FF2C107CD800CAFABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5869A122C22FF7B009F82E0 /* NavigationTransitions in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E54474AC2C358387008FE147 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				E509A9042C107CD800CAFABD /* chat-base */,
+				E54474B02C358387008FE147 /* Calendar */,
 				E509A9032C107CD800CAFABD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				E509A9022C107CD800CAFABD /* chat-base.app */,
+				E54474AF2C358387008FE147 /* Calendar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,12 +95,12 @@
 		E509A9042C107CD800CAFABD /* chat-base */ = {
 			isa = PBXGroup;
 			children = (
+				E5384A692C2C39FE00BBFFA7 /* Homework5 */,
+				E5384A682C2C39E600BBFFA7 /* Homework6 */,
 				E509A9052C107CD800CAFABD /* chat_baseApp.swift */,
 				E509A9072C107CD800CAFABD /* ContentView.swift */,
-				E509A9152C10B73700CAFABD /* OnboardView.swift */,
-				E509A9172C10BA0300CAFABD /* StartCommunicatingButton.swift */,
-				E509A9132C1088AC00CAFABD /* PhoneNumberView.swift */,
-				E509A9092C107CD900CAFABD /* Assets.xcassets */,
+				E5869A052C22FF12009F82E0 /* Homework2 */,
+				E5869A152C230405009F82E0 /* Homework1 */,
 				E509A90B2C107CD900CAFABD /* Preview Content */,
 			);
 			path = "chat-base";
@@ -72,8 +110,68 @@
 			isa = PBXGroup;
 			children = (
 				E509A90C2C107CD900CAFABD /* Preview Assets.xcassets */,
+				E5869A132C23005B009F82E0 /* CustomIcons.swift */,
+				E509A9092C107CD900CAFABD /* Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E5384A682C2C39E600BBFFA7 /* Homework6 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Homework6;
+			sourceTree = "<group>";
+		};
+		E5384A692C2C39FE00BBFFA7 /* Homework5 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Homework5;
+			sourceTree = "<group>";
+		};
+		E54474B02C358387008FE147 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				E58BC27F2C401D3800E87DB5 /* Homework7 */,
+				E54474B12C358387008FE147 /* CalendarApp.swift */,
+				E54474BD2C358413008FE147 /* ScreenView.swift */,
+				E54474BE2C358413008FE147 /* ScreenView+Extension.swift */,
+				E54474BF2C358413008FE147 /* StringInterpolation.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		E5869A052C22FF12009F82E0 /* Homework2 */ = {
+			isa = PBXGroup;
+			children = (
+				E5869A0A2C22FF4D009F82E0 /* ContactsView_Tab.swift */,
+				E5869A092C22FF4D009F82E0 /* ContactsScreenView.swift */,
+				E5869A082C22FF4D009F82E0 /* SearchBar.swift */,
+				E5869A072C22FF4D009F82E0 /* DetailScreenView.swift */,
+				E5869A162C231F83009F82E0 /* ContactCell.swift */,
+				E5869A062C22FF4D009F82E0 /* Contacts.swift */,
+			);
+			path = Homework2;
+			sourceTree = "<group>";
+		};
+		E5869A152C230405009F82E0 /* Homework1 */ = {
+			isa = PBXGroup;
+			children = (
+				E509A9152C10B73700CAFABD /* OnboardView.swift */,
+				E509A9172C10BA0300CAFABD /* StartCommunicatingButton.swift */,
+				E509A9132C1088AC00CAFABD /* PhoneNumberView.swift */,
+			);
+			path = Homework1;
+			sourceTree = "<group>";
+		};
+		E58BC27F2C401D3800E87DB5 /* Homework7 */ = {
+			isa = PBXGroup;
+			children = (
+				E58BC2802C401DEA00E87DB5 /* DetailProfileView.swift */,
+				E58BC2822C401E5900E87DB5 /* ProfileView.swift */,
+			);
+			path = Homework7;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,8 +190,28 @@
 			dependencies = (
 			);
 			name = "chat-base";
+			packageProductDependencies = (
+				E5869A112C22FF7B009F82E0 /* NavigationTransitions */,
+			);
 			productName = "chat-base";
 			productReference = E509A9022C107CD800CAFABD /* chat-base.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E54474AE2C358387008FE147 /* Calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E54474BC2C358389008FE147 /* Build configuration list for PBXNativeTarget "Calendar" */;
+			buildPhases = (
+				E54474AB2C358387008FE147 /* Sources */,
+				E54474AC2C358387008FE147 /* Frameworks */,
+				E54474AD2C358387008FE147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calendar;
+			productName = Calendar;
+			productReference = E54474AF2C358387008FE147 /* Calendar.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,6 +227,9 @@
 					E509A9012C107CD800CAFABD = {
 						CreatedOnToolsVersion = 15.3;
 					};
+					E54474AE2C358387008FE147 = {
+						CreatedOnToolsVersion = 15.3;
+					};
 				};
 			};
 			buildConfigurationList = E509A8FD2C107CD800CAFABD /* Build configuration list for PBXProject "chat-base" */;
@@ -120,11 +241,15 @@
 				Base,
 			);
 			mainGroup = E509A8F92C107CD800CAFABD;
+			packageReferences = (
+				E5869A102C22FF7B009F82E0 /* XCRemoteSwiftPackageReference "swiftui-navigation-transitions" */,
+			);
 			productRefGroup = E509A9032C107CD800CAFABD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E509A9012C107CD800CAFABD /* chat-base */,
+				E54474AE2C358387008FE147 /* Calendar */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +264,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E54474AD2C358387008FE147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -146,11 +278,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5869A172C231F83009F82E0 /* ContactCell.swift in Sources */,
 				E509A9162C10B73700CAFABD /* OnboardView.swift in Sources */,
+				E5869A0F2C22FF4D009F82E0 /* ContactsView_Tab.swift in Sources */,
 				E509A9142C1088AC00CAFABD /* PhoneNumberView.swift in Sources */,
+				E5869A0B2C22FF4D009F82E0 /* Contacts.swift in Sources */,
+				E5869A0C2C22FF4D009F82E0 /* DetailScreenView.swift in Sources */,
 				E509A9182C10BA0300CAFABD /* StartCommunicatingButton.swift in Sources */,
+				E5869A0D2C22FF4D009F82E0 /* SearchBar.swift in Sources */,
 				E509A9082C107CD800CAFABD /* ContentView.swift in Sources */,
+				E5869A0E2C22FF4D009F82E0 /* ContactsScreenView.swift in Sources */,
+				E5869A142C23005B009F82E0 /* CustomIcons.swift in Sources */,
 				E509A9062C107CD800CAFABD /* chat_baseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E54474AB2C358387008FE147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58BC2812C401DEA00E87DB5 /* DetailProfileView.swift in Sources */,
+				E54474C12C358413008FE147 /* ScreenView+Extension.swift in Sources */,
+				E54474C22C358413008FE147 /* StringInterpolation.swift in Sources */,
+				E54474C02C358413008FE147 /* ScreenView.swift in Sources */,
+				E58BC2832C401E5900E87DB5 /* ProfileView.swift in Sources */,
+				E54474B22C358387008FE147 /* CalendarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +488,66 @@
 			};
 			name = Release;
 		};
+		E54474BA2C358389008FE147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Calendar\"";
+				DEVELOPMENT_TEAM = DWL5A95D8B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Azamat.Calendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E54474BB2C358389008FE147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Calendar\"";
+				DEVELOPMENT_TEAM = DWL5A95D8B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Azamat.Calendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -357,7 +569,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		E54474BC2C358389008FE147 /* Build configuration list for PBXNativeTarget "Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E54474BA2C358389008FE147 /* Debug */,
+				E54474BB2C358389008FE147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E5869A102C22FF7B009F82E0 /* XCRemoteSwiftPackageReference "swiftui-navigation-transitions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/davdroman/swiftui-navigation-transitions.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.13.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E5869A112C22FF7B009F82E0 /* NavigationTransitions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5869A102C22FF7B009F82E0 /* XCRemoteSwiftPackageReference "swiftui-navigation-transitions" */;
+			productName = NavigationTransitions;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E509A8FA2C107CD800CAFABD /* Project object */;
 }
