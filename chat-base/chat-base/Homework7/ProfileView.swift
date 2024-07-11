@@ -5,9 +5,10 @@
 //  Created by Азамат Баев on 11.07.2024.
 //
 
-//1Создать в правом верхнем углу кнопку "edit"
+//1.Создать в правом верхнем углу кнопку "edit"
 //2. По нажатию на нее дать возможность пользователю отредактировать профиль(username, notifications on/off, seasonal photos, date)
 //3.Добавить кнопку Save для выхода из режима редактирования и сохранения введенных данных
+
 import SwiftUI
 
 struct ProfileView: View {
@@ -43,7 +44,6 @@ struct ProfileView: View {
             }
         }
     }
-    
 }
 
 struct Profile {
@@ -64,7 +64,6 @@ struct Profile {
 extension Profile {
     static let `default` = Profile(username: "Kanye West")
 }
-
 
 #Preview {
     struct BindingViewExamplePreviewContainer : View {
