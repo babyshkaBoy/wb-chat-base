@@ -28,6 +28,8 @@
 		E5869A172C231F83009F82E0 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A162C231F83009F82E0 /* ContactCell.swift */; };
 		E58BC2872C40309A00E87DB5 /* DetailProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58BC2842C40309A00E87DB5 /* DetailProfileView.swift */; };
 		E58BC2882C40309A00E87DB5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58BC2852C40309A00E87DB5 /* ProfileView.swift */; };
+		E58BC28B2C4031F400E87DB5 /* InfinityScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58BC28A2C4031F400E87DB5 /* InfinityScroll.swift */; };
+		E58BC28D2C40320E00E87DB5 /* RoundedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58BC28C2C40320E00E87DB5 /* RoundedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,8 @@
 		E5869A162C231F83009F82E0 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 		E58BC2842C40309A00E87DB5 /* DetailProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailProfileView.swift; sourceTree = "<group>"; };
 		E58BC2852C40309A00E87DB5 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		E58BC28A2C4031F400E87DB5 /* InfinityScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityScroll.swift; sourceTree = "<group>"; };
+		E58BC28C2C40320E00E87DB5 /* RoundedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,7 @@
 		E509A9042C107CD800CAFABD /* chat-base */ = {
 			isa = PBXGroup;
 			children = (
+				E58BC2892C4031CA00E87DB5 /* Homework8 */,
 				E5384A692C2C39FE00BBFFA7 /* Homework5 */,
 				E5384A682C2C39E600BBFFA7 /* Homework6 */,
 				E509A9052C107CD800CAFABD /* chat_baseApp.swift */,
@@ -172,6 +177,15 @@
 				E58BC2852C40309A00E87DB5 /* ProfileView.swift */,
 			);
 			path = Homework7;
+			sourceTree = "<group>";
+		};
+		E58BC2892C4031CA00E87DB5 /* Homework8 */ = {
+			isa = PBXGroup;
+			children = (
+				E58BC28A2C4031F400E87DB5 /* InfinityScroll.swift */,
+				E58BC28C2C40320E00E87DB5 /* RoundedCell.swift */,
+			);
+			path = Homework8;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,9 +301,11 @@
 				E5869A0C2C22FF4D009F82E0 /* DetailScreenView.swift in Sources */,
 				E509A9182C10BA0300CAFABD /* StartCommunicatingButton.swift in Sources */,
 				E5869A0D2C22FF4D009F82E0 /* SearchBar.swift in Sources */,
+				E58BC28B2C4031F400E87DB5 /* InfinityScroll.swift in Sources */,
 				E509A9082C107CD800CAFABD /* ContentView.swift in Sources */,
 				E5869A0E2C22FF4D009F82E0 /* ContactsScreenView.swift in Sources */,
 				E5869A142C23005B009F82E0 /* CustomIcons.swift in Sources */,
+				E58BC28D2C40320E00E87DB5 /* RoundedCell.swift in Sources */,
 				E58BC2882C40309A00E87DB5 /* ProfileView.swift in Sources */,
 				E509A9062C107CD800CAFABD /* chat_baseApp.swift in Sources */,
 			);
