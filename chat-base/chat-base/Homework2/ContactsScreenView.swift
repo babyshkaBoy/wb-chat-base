@@ -31,7 +31,7 @@ struct ContactsScreenView: View {
             }.environment(\.defaultMinListRowHeight, 50)
             .navigationBarItems(leading: Text("Контакты"),
                                 trailing: Button(action: {}) {
-                Image("vector")
+                Image("addedButton")
                     
             })
             .listStyle(.inset)

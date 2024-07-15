@@ -30,6 +30,7 @@
 		E58BC2882C40309A00E87DB5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58BC2852C40309A00E87DB5 /* ProfileView.swift */; };
 		E58BC28B2C4031F400E87DB5 /* InfinityScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58BC28A2C4031F400E87DB5 /* InfinityScroll.swift */; };
 		E58BC28D2C40320E00E87DB5 /* RoundedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58BC28C2C40320E00E87DB5 /* RoundedCell.swift */; };
+		E5AEEBA52C453AE300A26598 /* Homework9_VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEEBA42C453AE300A26598 /* Homework9_VerificationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		E58BC2852C40309A00E87DB5 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		E58BC28A2C4031F400E87DB5 /* InfinityScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityScroll.swift; sourceTree = "<group>"; };
 		E58BC28C2C40320E00E87DB5 /* RoundedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCell.swift; sourceTree = "<group>"; };
+		E5AEEBA42C453AE300A26598 /* Homework9_VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework9_VerificationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		E509A9042C107CD800CAFABD /* chat-base */ = {
 			isa = PBXGroup;
 			children = (
+				E5AEEBA32C45375000A26598 /* Homework9_Animation */,
 				E58BC2892C4031CA00E87DB5 /* Homework8 */,
 				E5384A692C2C39FE00BBFFA7 /* Homework5 */,
 				E5384A682C2C39E600BBFFA7 /* Homework6 */,
@@ -186,6 +189,14 @@
 				E58BC28C2C40320E00E87DB5 /* RoundedCell.swift */,
 			);
 			path = Homework8;
+			sourceTree = "<group>";
+		};
+		E5AEEBA32C45375000A26598 /* Homework9_Animation */ = {
+			isa = PBXGroup;
+			children = (
+				E5AEEBA42C453AE300A26598 /* Homework9_VerificationView.swift */,
+			);
+			path = Homework9_Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +310,7 @@
 				E5869A0B2C22FF4D009F82E0 /* Contacts.swift in Sources */,
 				E58BC2872C40309A00E87DB5 /* DetailProfileView.swift in Sources */,
 				E5869A0C2C22FF4D009F82E0 /* DetailScreenView.swift in Sources */,
+				E5AEEBA52C453AE300A26598 /* Homework9_VerificationView.swift in Sources */,
 				E509A9182C10BA0300CAFABD /* StartCommunicatingButton.swift in Sources */,
 				E5869A0D2C22FF4D009F82E0 /* SearchBar.swift in Sources */,
 				E58BC28B2C4031F400E87DB5 /* InfinityScroll.swift in Sources */,
