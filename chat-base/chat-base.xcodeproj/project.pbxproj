@@ -16,6 +16,10 @@
 		E509A9182C10BA0300CAFABD /* StartCommunicatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509A9172C10BA0300CAFABD /* StartCommunicatingButton.swift */; };
 		E52A7BB92C511DC800D5D8E2 /* OTPTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52A7BB82C511DC800D5D8E2 /* OTPTextView.swift */; };
 		E52A7BBB2C511F0400D5D8E2 /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52A7BBA2C511F0400D5D8E2 /* OTPTextField.swift */; };
+		E52A7BCB2C51248A00D5D8E2 /* DataStructuresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52A7BCA2C51248A00D5D8E2 /* DataStructuresApp.swift */; };
+		E52A7BCD2C51248A00D5D8E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52A7BCC2C51248A00D5D8E2 /* ContentView.swift */; };
+		E52A7BCF2C51248C00D5D8E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52A7BCE2C51248C00D5D8E2 /* Assets.xcassets */; };
+		E52A7BD22C51248C00D5D8E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52A7BD12C51248C00D5D8E2 /* Preview Assets.xcassets */; };
 		E54474B22C358387008FE147 /* CalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54474B12C358387008FE147 /* CalendarApp.swift */; };
 		E54474C02C358413008FE147 /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54474BD2C358413008FE147 /* ScreenView.swift */; };
 		E54474C12C358413008FE147 /* ScreenView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54474BE2C358413008FE147 /* ScreenView+Extension.swift */; };
@@ -46,6 +50,12 @@
 		E509A9172C10BA0300CAFABD /* StartCommunicatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCommunicatingButton.swift; sourceTree = "<group>"; };
 		E52A7BB82C511DC800D5D8E2 /* OTPTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextView.swift; sourceTree = "<group>"; };
 		E52A7BBA2C511F0400D5D8E2 /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
+		E52A7BC82C51248A00D5D8E2 /* DataStructures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52A7BCA2C51248A00D5D8E2 /* DataStructuresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresApp.swift; sourceTree = "<group>"; };
+		E52A7BCC2C51248A00D5D8E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E52A7BCE2C51248C00D5D8E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E52A7BD12C51248C00D5D8E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E52A7BD62C5124D400D5D8E2 /* HW11_DataStructures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HW11_DataStructures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E54474AF2C358387008FE147 /* Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54474B12C358387008FE147 /* CalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarApp.swift; sourceTree = "<group>"; };
 		E54474BD2C358413008FE147 /* ScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
@@ -74,6 +84,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E52A7BC52C51248A00D5D8E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E54474AC2C358387008FE147 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,6 +106,7 @@
 			children = (
 				E509A9042C107CD800CAFABD /* chat-base */,
 				E54474B02C358387008FE147 /* Calendar */,
+				E52A7BC92C51248A00D5D8E2 /* DataStructures */,
 				E509A9032C107CD800CAFABD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,6 +116,7 @@
 			children = (
 				E509A9022C107CD800CAFABD /* chat-base.app */,
 				E54474AF2C358387008FE147 /* Calendar.app */,
+				E52A7BC82C51248A00D5D8E2 /* DataStructures.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,6 +156,26 @@
 				E52A7BBA2C511F0400D5D8E2 /* OTPTextField.swift */,
 			);
 			path = Homework10_OTP;
+			sourceTree = "<group>";
+		};
+		E52A7BC92C51248A00D5D8E2 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				E52A7BCA2C51248A00D5D8E2 /* DataStructuresApp.swift */,
+				E52A7BCC2C51248A00D5D8E2 /* ContentView.swift */,
+				E52A7BCE2C51248C00D5D8E2 /* Assets.xcassets */,
+				E52A7BD02C51248C00D5D8E2 /* Preview Content */,
+				E52A7BD62C5124D400D5D8E2 /* HW11_DataStructures.playground */,
+			);
+			path = DataStructures;
+			sourceTree = "<group>";
+		};
+		E52A7BD02C51248C00D5D8E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E52A7BD12C51248C00D5D8E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		E5384A682C2C39E600BBFFA7 /* Homework6 */ = {
@@ -236,6 +275,23 @@
 			productReference = E509A9022C107CD800CAFABD /* chat-base.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E52A7BC72C51248A00D5D8E2 /* DataStructures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52A7BD32C51248C00D5D8E2 /* Build configuration list for PBXNativeTarget "DataStructures" */;
+			buildPhases = (
+				E52A7BC42C51248A00D5D8E2 /* Sources */,
+				E52A7BC52C51248A00D5D8E2 /* Frameworks */,
+				E52A7BC62C51248A00D5D8E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataStructures;
+			productName = DataStructures;
+			productReference = E52A7BC82C51248A00D5D8E2 /* DataStructures.app */;
+			productType = "com.apple.product-type.application";
+		};
 		E54474AE2C358387008FE147 /* Calendar */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E54474BC2C358389008FE147 /* Build configuration list for PBXNativeTarget "Calendar" */;
@@ -266,6 +322,9 @@
 					E509A9012C107CD800CAFABD = {
 						CreatedOnToolsVersion = 15.3;
 					};
+					E52A7BC72C51248A00D5D8E2 = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					E54474AE2C358387008FE147 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -289,6 +348,7 @@
 			targets = (
 				E509A9012C107CD800CAFABD /* chat-base */,
 				E54474AE2C358387008FE147 /* Calendar */,
+				E52A7BC72C51248A00D5D8E2 /* DataStructures */,
 			);
 		};
 /* End PBXProject section */
@@ -300,6 +360,15 @@
 			files = (
 				E509A90D2C107CD900CAFABD /* Preview Assets.xcassets in Resources */,
 				E509A90A2C107CD900CAFABD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52A7BC62C51248A00D5D8E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52A7BD22C51248C00D5D8E2 /* Preview Assets.xcassets in Resources */,
+				E52A7BCF2C51248C00D5D8E2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +405,15 @@
 				E58BC28D2C40320E00E87DB5 /* RoundedCell.swift in Sources */,
 				E58BC2882C40309A00E87DB5 /* ProfileView.swift in Sources */,
 				E509A9062C107CD800CAFABD /* chat_baseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52A7BC42C51248A00D5D8E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52A7BCD2C51248A00D5D8E2 /* ContentView.swift in Sources */,
+				E52A7BCB2C51248A00D5D8E2 /* DataStructuresApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +610,64 @@
 			};
 			name = Release;
 		};
+		E52A7BD42C51248C00D5D8E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DataStructures/Preview Content\"";
+				DEVELOPMENT_TEAM = DWL5A95D8B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Azamat.DataStructures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E52A7BD52C51248C00D5D8E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DataStructures/Preview Content\"";
+				DEVELOPMENT_TEAM = DWL5A95D8B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Azamat.DataStructures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		E54474BA2C358389008FE147 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -609,6 +745,15 @@
 			buildConfigurations = (
 				E509A9112C107CD900CAFABD /* Debug */,
 				E509A9122C107CD900CAFABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52A7BD32C51248C00D5D8E2 /* Build configuration list for PBXNativeTarget "DataStructures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52A7BD42C51248C00D5D8E2 /* Debug */,
+				E52A7BD52C51248C00D5D8E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
