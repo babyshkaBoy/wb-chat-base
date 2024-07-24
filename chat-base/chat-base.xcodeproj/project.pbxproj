@@ -14,6 +14,8 @@
 		E509A9142C1088AC00CAFABD /* PhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509A9132C1088AC00CAFABD /* PhoneNumberView.swift */; };
 		E509A9162C10B73700CAFABD /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509A9152C10B73700CAFABD /* OnboardView.swift */; };
 		E509A9182C10BA0300CAFABD /* StartCommunicatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509A9172C10BA0300CAFABD /* StartCommunicatingButton.swift */; };
+		E52A7BB92C511DC800D5D8E2 /* OTPTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52A7BB82C511DC800D5D8E2 /* OTPTextView.swift */; };
+		E52A7BBB2C511F0400D5D8E2 /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52A7BBA2C511F0400D5D8E2 /* OTPTextField.swift */; };
 		E54474B22C358387008FE147 /* CalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54474B12C358387008FE147 /* CalendarApp.swift */; };
 		E54474C02C358413008FE147 /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54474BD2C358413008FE147 /* ScreenView.swift */; };
 		E54474C12C358413008FE147 /* ScreenView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54474BE2C358413008FE147 /* ScreenView+Extension.swift */; };
@@ -42,6 +44,8 @@
 		E509A9132C1088AC00CAFABD /* PhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberView.swift; sourceTree = "<group>"; };
 		E509A9152C10B73700CAFABD /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
 		E509A9172C10BA0300CAFABD /* StartCommunicatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCommunicatingButton.swift; sourceTree = "<group>"; };
+		E52A7BB82C511DC800D5D8E2 /* OTPTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextView.swift; sourceTree = "<group>"; };
+		E52A7BBA2C511F0400D5D8E2 /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
 		E54474AF2C358387008FE147 /* Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54474B12C358387008FE147 /* CalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarApp.swift; sourceTree = "<group>"; };
 		E54474BD2C358413008FE147 /* ScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
@@ -101,6 +105,7 @@
 		E509A9042C107CD800CAFABD /* chat-base */ = {
 			isa = PBXGroup;
 			children = (
+				E52A7BB72C511D7500D5D8E2 /* Homework10_OTP */,
 				E5AEEBA32C45375000A26598 /* Homework9_Animation */,
 				E58BC2892C4031CA00E87DB5 /* Homework8 */,
 				E5384A692C2C39FE00BBFFA7 /* Homework5 */,
@@ -123,6 +128,15 @@
 				E509A9092C107CD900CAFABD /* Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E52A7BB72C511D7500D5D8E2 /* Homework10_OTP */ = {
+			isa = PBXGroup;
+			children = (
+				E52A7BB82C511DC800D5D8E2 /* OTPTextView.swift */,
+				E52A7BBA2C511F0400D5D8E2 /* OTPTextField.swift */,
+			);
+			path = Homework10_OTP;
 			sourceTree = "<group>";
 		};
 		E5384A682C2C39E600BBFFA7 /* Homework6 */ = {
@@ -308,6 +322,8 @@
 				E5869A0F2C22FF4D009F82E0 /* ContactsView_Tab.swift in Sources */,
 				E509A9142C1088AC00CAFABD /* PhoneNumberView.swift in Sources */,
 				E5869A0B2C22FF4D009F82E0 /* Contacts.swift in Sources */,
+				E52A7BBB2C511F0400D5D8E2 /* OTPTextField.swift in Sources */,
+				E52A7BB92C511DC800D5D8E2 /* OTPTextView.swift in Sources */,
 				E58BC2872C40309A00E87DB5 /* DetailProfileView.swift in Sources */,
 				E5869A0C2C22FF4D009F82E0 /* DetailScreenView.swift in Sources */,
 				E5AEEBA52C453AE300A26598 /* Homework9_VerificationView.swift in Sources */,
