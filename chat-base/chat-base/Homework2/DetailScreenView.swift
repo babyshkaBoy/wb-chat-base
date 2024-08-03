@@ -10,12 +10,13 @@ import SwiftUI
 struct DetailScreenView: View {
     @Environment (\.dismiss) private var dismiss
     let contacts: Contacts
+   
     var body: some View {
         NavigationStack {
             
             VStack(spacing: 0) {
                 
-                if let avatar = contacts.avatar {
+                if let avatar = contacts.defaultAvatar {
                     Image(avatar)
                         .resizable()
                         .aspectRatio(contentMode: .fill)
@@ -23,6 +24,7 @@ struct DetailScreenView: View {
                         .clipShape(Circle())
                         .overlay(Circle().stroke(Color.gray, lineWidth: 1))
                         .padding(.top, 86)
+                        
                     Text(contacts.name)
                         .font(.system(size: 24, weight: .semibold, design: .none))
                         .padding(.top, 20)

@@ -14,15 +14,17 @@ struct Contacts: Identifiable, Hashable {
     var status: String
     var isOnline: Bool
     var hasNewStories: Bool
-    var avatar: String?
+    var avatar: String? = "https://random-image-pepebigotes.vercel.app/api/random-image"
+    var defaultAvatar: String?
+    
 }
 
 extension Contacts {
     static let contacts: [Contacts] = [
-        .init(name: "Анастасия Иванова", phoneNumber: "1111111111", status: "Last seen yesterday", isOnline: false, hasNewStories: false, avatar: "nastya"),
-        .init(name: "Петя", phoneNumber: "359821", status: "Online", isOnline: true, hasNewStories: false, avatar: "petya"),
-        .init(name: "Маман", phoneNumber: "748458404", status: "Last seen 3 hours ago", isOnline: false, hasNewStories: true, avatar: "maman"),
-        .init(name: "Арбуз Дыня", phoneNumber: "646656565", status: "Online", isOnline: true, hasNewStories: false, avatar: "arbyz"),
+        .init(name: "Анастасия Иванова", phoneNumber: "1111111111", status: "Last seen yesterday", isOnline: false, hasNewStories: false, defaultAvatar: "nastya"),
+        .init(name: "Петя", phoneNumber: "359821", status: "Online", isOnline: true, hasNewStories: false, defaultAvatar: "petya"),
+        .init(name: "Маман", phoneNumber: "748458404", status: "Last seen 3 hours ago", isOnline: false, hasNewStories: true, defaultAvatar: "maman"),
+        .init(name: "Арбуз Дыня", phoneNumber: "646656565", status: "Online", isOnline: true, hasNewStories: false, defaultAvatar: "arbyz"),
         .init(name: "Иван Иванов", phoneNumber: "757575757", status: "Online", isOnline: true, hasNewStories: false),
         .init(name: "Лиса Алиса", phoneNumber: "93939393", status: "Last seen 30 minutes ago", isOnline: false, hasNewStories: true)
     ]
