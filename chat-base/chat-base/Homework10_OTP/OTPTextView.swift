@@ -23,7 +23,6 @@ struct OTPTextView: View {
                     .font(.system(size: 14))
                     .multilineTextAlignment(.center)
             }.frame(width: 261, height: 85)
-            //
             ZStack {
                 OTPTextField(verificationCode: $verificationCode, pinLength: pinLength, keyboardType: keyboardType) {
                     onComplete(verificationCode)

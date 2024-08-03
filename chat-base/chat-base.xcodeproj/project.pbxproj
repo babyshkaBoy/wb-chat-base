@@ -11,9 +11,7 @@
 		E509A9082C107CD800CAFABD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509A9072C107CD800CAFABD /* ContentView.swift */; };
 		E509A90A2C107CD900CAFABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E509A9092C107CD900CAFABD /* Assets.xcassets */; };
 		E509A90D2C107CD900CAFABD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E509A90C2C107CD900CAFABD /* Preview Assets.xcassets */; };
-		E509A9142C1088AC00CAFABD /* PhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509A9132C1088AC00CAFABD /* PhoneNumberView.swift */; };
 		E509A9162C10B73700CAFABD /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509A9152C10B73700CAFABD /* OnboardView.swift */; };
-		E509A9182C10BA0300CAFABD /* StartCommunicatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509A9172C10BA0300CAFABD /* StartCommunicatingButton.swift */; };
 		E52A7BB92C511DC800D5D8E2 /* OTPTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52A7BB82C511DC800D5D8E2 /* OTPTextView.swift */; };
 		E52A7BBB2C511F0400D5D8E2 /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52A7BBA2C511F0400D5D8E2 /* OTPTextField.swift */; };
 		E52A7BCB2C51248A00D5D8E2 /* DataStructuresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52A7BCA2C51248A00D5D8E2 /* DataStructuresApp.swift */; };
@@ -26,17 +24,20 @@
 		E54474C22C358413008FE147 /* StringInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54474BF2C358413008FE147 /* StringInterpolation.swift */; };
 		E5869A0B2C22FF4D009F82E0 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A062C22FF4D009F82E0 /* Contacts.swift */; };
 		E5869A0C2C22FF4D009F82E0 /* DetailScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A072C22FF4D009F82E0 /* DetailScreenView.swift */; };
-		E5869A0D2C22FF4D009F82E0 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A082C22FF4D009F82E0 /* SearchBar.swift */; };
 		E5869A0E2C22FF4D009F82E0 /* ContactsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A092C22FF4D009F82E0 /* ContactsScreenView.swift */; };
 		E5869A0F2C22FF4D009F82E0 /* ContactsView_Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A0A2C22FF4D009F82E0 /* ContactsView_Tab.swift */; };
 		E5869A122C22FF7B009F82E0 /* NavigationTransitions in Frameworks */ = {isa = PBXBuildFile; productRef = E5869A112C22FF7B009F82E0 /* NavigationTransitions */; };
 		E5869A142C23005B009F82E0 /* CustomIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A132C23005B009F82E0 /* CustomIcons.swift */; };
 		E5869A172C231F83009F82E0 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5869A162C231F83009F82E0 /* ContactCell.swift */; };
+		E588343C2C5A50CB0052C202 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E588343B2C5A50CB0052C202 /* ImageService.swift */; };
 		E58BC2872C40309A00E87DB5 /* DetailProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58BC2842C40309A00E87DB5 /* DetailProfileView.swift */; };
 		E58BC2882C40309A00E87DB5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58BC2852C40309A00E87DB5 /* ProfileView.swift */; };
 		E58BC28B2C4031F400E87DB5 /* InfinityScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58BC28A2C4031F400E87DB5 /* InfinityScroll.swift */; };
 		E58BC28D2C40320E00E87DB5 /* RoundedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58BC28C2C40320E00E87DB5 /* RoundedCell.swift */; };
 		E5AEEBA52C453AE300A26598 /* Homework9_VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEEBA42C453AE300A26598 /* Homework9_VerificationView.swift */; };
+		E5EFDEE22C5E3B4300762823 /* UISystem in Frameworks */ = {isa = PBXBuildFile; productRef = E5EFDEE12C5E3B4300762823 /* UISystem */; };
+		E5EFDEE42C5E443900762823 /* StartCommunicatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EFDEE32C5E443900762823 /* StartCommunicatingButton.swift */; };
+		E5EFDEE62C5E443C00762823 /* PhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EFDEE52C5E443C00762823 /* PhoneNumberView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,9 +46,7 @@
 		E509A9072C107CD800CAFABD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E509A9092C107CD900CAFABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E509A90C2C107CD900CAFABD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E509A9132C1088AC00CAFABD /* PhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberView.swift; sourceTree = "<group>"; };
 		E509A9152C10B73700CAFABD /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
-		E509A9172C10BA0300CAFABD /* StartCommunicatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCommunicatingButton.swift; sourceTree = "<group>"; };
 		E52A7BB82C511DC800D5D8E2 /* OTPTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextView.swift; sourceTree = "<group>"; };
 		E52A7BBA2C511F0400D5D8E2 /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
 		E52A7BC82C51248A00D5D8E2 /* DataStructures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructures.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,16 +62,19 @@
 		E54474BF2C358413008FE147 /* StringInterpolation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringInterpolation.swift; sourceTree = "<group>"; };
 		E5869A062C22FF4D009F82E0 /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		E5869A072C22FF4D009F82E0 /* DetailScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailScreenView.swift; sourceTree = "<group>"; };
-		E5869A082C22FF4D009F82E0 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		E5869A092C22FF4D009F82E0 /* ContactsScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsScreenView.swift; sourceTree = "<group>"; };
 		E5869A0A2C22FF4D009F82E0 /* ContactsView_Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsView_Tab.swift; sourceTree = "<group>"; };
 		E5869A132C23005B009F82E0 /* CustomIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomIcons.swift; sourceTree = "<group>"; };
 		E5869A162C231F83009F82E0 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		E588343B2C5A50CB0052C202 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		E588343D2C5A64EE0052C202 /* UISystem */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = UISystem; path = Modules/UISystem; sourceTree = SOURCE_ROOT; };
 		E58BC2842C40309A00E87DB5 /* DetailProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailProfileView.swift; sourceTree = "<group>"; };
 		E58BC2852C40309A00E87DB5 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		E58BC28A2C4031F400E87DB5 /* InfinityScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityScroll.swift; sourceTree = "<group>"; };
 		E58BC28C2C40320E00E87DB5 /* RoundedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCell.swift; sourceTree = "<group>"; };
 		E5AEEBA42C453AE300A26598 /* Homework9_VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework9_VerificationView.swift; sourceTree = "<group>"; };
+		E5EFDEE32C5E443900762823 /* StartCommunicatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCommunicatingButton.swift; sourceTree = "<group>"; };
+		E5EFDEE52C5E443C00762823 /* PhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5869A122C22FF7B009F82E0 /* NavigationTransitions in Frameworks */,
+				E5EFDEE22C5E3B4300762823 /* UISystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +111,7 @@
 				E54474B02C358387008FE147 /* Calendar */,
 				E52A7BC92C51248A00D5D8E2 /* DataStructures */,
 				E509A9032C107CD800CAFABD /* Products */,
+				E5EFDEE02C5E3B4300762823 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +128,8 @@
 		E509A9042C107CD800CAFABD /* chat-base */ = {
 			isa = PBXGroup;
 			children = (
+				E588343D2C5A64EE0052C202 /* UISystem */,
+				E588343A2C5A506D0052C202 /* Homework14_GCD */,
 				E52A7BB72C511D7500D5D8E2 /* Homework10_OTP */,
 				E5AEEBA32C45375000A26598 /* Homework9_Animation */,
 				E58BC2892C4031CA00E87DB5 /* Homework8 */,
@@ -208,7 +214,6 @@
 			children = (
 				E5869A0A2C22FF4D009F82E0 /* ContactsView_Tab.swift */,
 				E5869A092C22FF4D009F82E0 /* ContactsScreenView.swift */,
-				E5869A082C22FF4D009F82E0 /* SearchBar.swift */,
 				E5869A072C22FF4D009F82E0 /* DetailScreenView.swift */,
 				E5869A162C231F83009F82E0 /* ContactCell.swift */,
 				E5869A062C22FF4D009F82E0 /* Contacts.swift */,
@@ -220,10 +225,18 @@
 			isa = PBXGroup;
 			children = (
 				E509A9152C10B73700CAFABD /* OnboardView.swift */,
-				E509A9172C10BA0300CAFABD /* StartCommunicatingButton.swift */,
-				E509A9132C1088AC00CAFABD /* PhoneNumberView.swift */,
+				E5EFDEE52C5E443C00762823 /* PhoneNumberView.swift */,
+				E5EFDEE32C5E443900762823 /* StartCommunicatingButton.swift */,
 			);
 			path = Homework1;
+			sourceTree = "<group>";
+		};
+		E588343A2C5A506D0052C202 /* Homework14_GCD */ = {
+			isa = PBXGroup;
+			children = (
+				E588343B2C5A50CB0052C202 /* ImageService.swift */,
+			);
+			path = Homework14_GCD;
 			sourceTree = "<group>";
 		};
 		E58BC2862C40309A00E87DB5 /* Homework7 */ = {
@@ -252,6 +265,13 @@
 			path = Homework9_Animation;
 			sourceTree = "<group>";
 		};
+		E5EFDEE02C5E3B4300762823 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -270,6 +290,7 @@
 			name = "chat-base";
 			packageProductDependencies = (
 				E5869A112C22FF7B009F82E0 /* NavigationTransitions */,
+				E5EFDEE12C5E3B4300762823 /* UISystem */,
 			);
 			productName = "chat-base";
 			productReference = E509A9022C107CD800CAFABD /* chat-base.app */;
@@ -387,18 +408,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5869A172C231F83009F82E0 /* ContactCell.swift in Sources */,
+				E5EFDEE42C5E443900762823 /* StartCommunicatingButton.swift in Sources */,
 				E509A9162C10B73700CAFABD /* OnboardView.swift in Sources */,
 				E5869A0F2C22FF4D009F82E0 /* ContactsView_Tab.swift in Sources */,
-				E509A9142C1088AC00CAFABD /* PhoneNumberView.swift in Sources */,
 				E5869A0B2C22FF4D009F82E0 /* Contacts.swift in Sources */,
 				E52A7BBB2C511F0400D5D8E2 /* OTPTextField.swift in Sources */,
+				E5EFDEE62C5E443C00762823 /* PhoneNumberView.swift in Sources */,
 				E52A7BB92C511DC800D5D8E2 /* OTPTextView.swift in Sources */,
 				E58BC2872C40309A00E87DB5 /* DetailProfileView.swift in Sources */,
 				E5869A0C2C22FF4D009F82E0 /* DetailScreenView.swift in Sources */,
 				E5AEEBA52C453AE300A26598 /* Homework9_VerificationView.swift in Sources */,
-				E509A9182C10BA0300CAFABD /* StartCommunicatingButton.swift in Sources */,
-				E5869A0D2C22FF4D009F82E0 /* SearchBar.swift in Sources */,
 				E58BC28B2C4031F400E87DB5 /* InfinityScroll.swift in Sources */,
+				E588343C2C5A50CB0052C202 /* ImageService.swift in Sources */,
 				E509A9082C107CD800CAFABD /* ContentView.swift in Sources */,
 				E5869A0E2C22FF4D009F82E0 /* ContactsScreenView.swift in Sources */,
 				E5869A142C23005B009F82E0 /* CustomIcons.swift in Sources */,
@@ -785,6 +806,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E5869A102C22FF7B009F82E0 /* XCRemoteSwiftPackageReference "swiftui-navigation-transitions" */;
 			productName = NavigationTransitions;
+		};
+		E5EFDEE12C5E3B4300762823 /* UISystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UISystem;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -7,10 +7,13 @@
 
 import SwiftUI
 import NavigationTransitions
+import UISystem
 
 struct ContactsScreenView: View {
     @State private var searchText = ""
     @State private var contacts = Contacts.contacts
+    @StateObject private var imageService = ImageService()
+    
     var body: some View {
         NavigationStack {
             List {
@@ -20,6 +23,8 @@ struct ContactsScreenView: View {
                 ForEach(contacts) { contact in
                     ZStack {
                         ContactCell(contact: contact)
+                            .environmentObject(imageService)
+                            
                         NavigationLink(destination: DetailScreenView(contacts: contact)) {
                           EmptyView()
                         }
@@ -35,10 +40,8 @@ struct ContactsScreenView: View {
                     
             })
             .listStyle(.inset)
-
         }
         .navigationTransition(.fade(.cross))
-
     }
 }
 struct ChatsView: View {
