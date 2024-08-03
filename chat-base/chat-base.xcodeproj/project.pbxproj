@@ -38,6 +38,7 @@
 		E5EFDEE22C5E3B4300762823 /* UISystem in Frameworks */ = {isa = PBXBuildFile; productRef = E5EFDEE12C5E3B4300762823 /* UISystem */; };
 		E5EFDEE42C5E443900762823 /* StartCommunicatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EFDEE32C5E443900762823 /* StartCommunicatingButton.swift */; };
 		E5EFDEE62C5E443C00762823 /* PhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EFDEE52C5E443C00762823 /* PhoneNumberView.swift */; };
+		E5EFDEEB2C5EC60100762823 /* GoF.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EFDEEA2C5EC60100762823 /* GoF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		E5AEEBA42C453AE300A26598 /* Homework9_VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework9_VerificationView.swift; sourceTree = "<group>"; };
 		E5EFDEE32C5E443900762823 /* StartCommunicatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCommunicatingButton.swift; sourceTree = "<group>"; };
 		E5EFDEE52C5E443C00762823 /* PhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberView.swift; sourceTree = "<group>"; };
+		E5EFDEEA2C5EC60100762823 /* GoF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			children = (
 				E588343D2C5A64EE0052C202 /* UISystem */,
 				E588343A2C5A506D0052C202 /* Homework14_GCD */,
+				E5EFDEE92C5EC5AD00762823 /* Homework13_GoF */,
 				E52A7BB72C511D7500D5D8E2 /* Homework10_OTP */,
 				E5AEEBA32C45375000A26598 /* Homework9_Animation */,
 				E58BC2892C4031CA00E87DB5 /* Homework8 */,
@@ -270,6 +273,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5EFDEE92C5EC5AD00762823 /* Homework13_GoF */ = {
+			isa = PBXGroup;
+			children = (
+				E5EFDEEA2C5EC60100762823 /* GoF.swift */,
+			);
+			path = Homework13_GoF;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,6 +432,7 @@
 				E58BC28B2C4031F400E87DB5 /* InfinityScroll.swift in Sources */,
 				E588343C2C5A50CB0052C202 /* ImageService.swift in Sources */,
 				E509A9082C107CD800CAFABD /* ContentView.swift in Sources */,
+				E5EFDEEB2C5EC60100762823 /* GoF.swift in Sources */,
 				E5869A0E2C22FF4D009F82E0 /* ContactsScreenView.swift in Sources */,
 				E5869A142C23005B009F82E0 /* CustomIcons.swift in Sources */,
 				E58BC28D2C40320E00E87DB5 /* RoundedCell.swift in Sources */,
