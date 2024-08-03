@@ -61,6 +61,7 @@ struct Profile {
         var id: String { rawValue }
     }
 }
+
 extension Profile {
     static let `default` = Profile(username: "Kanye West")
 }

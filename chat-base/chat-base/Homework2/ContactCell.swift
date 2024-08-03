@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import UISystem
+
 struct ContactCell: View {
     var contact: Contacts
+    @EnvironmentObject var imageService: ImageService
+    @State private var image: UIImage? = nil
+    
     var body: some View {
         HStack() {
-            if let avatar = contact.avatar {
-                Image(avatar)
+            if let image = image {
+                Image(uiImage: image)
                     .resizable()
                     .frame(width: 48, height: 48)
                     .clipShape(RoundedRectangle(cornerRadius: 16))
@@ -22,7 +27,6 @@ struct ContactCell: View {
                         .opacity(contact.isOnline ? 1 : 0),
                              alignment: .topTrailing)
                     .padding(.trailing, 12)
-
             } else {
                 RoundedRectangle(cornerRadius: 16)
                     .fill(Color.purple)
@@ -48,34 +52,12 @@ struct ContactCell: View {
             }
 
         }
+        .onAppear {
+            imageService.loadImage(from: contact.avatar ?? "") { loadedImage in
+                self.image = loadedImage
+            }
+        }
     }
-}
-
-//MARK: Indicators and Initial
-private var storiesIndicator: some View {
-    RoundedRectangle(cornerRadius: 16)
-        .stroke(LinearGradient(
-            colors: [
-                .gradientLightBlue,
-                .gradientBlue
-            ],
-            startPoint: .topLeading,
-            endPoint: .bottomTrailing
-        ), lineWidth: 2)
-        .frame(width: 54, height: 54)
-}
-
-private var onlineIndicator: some View {
-    Circle()
-        .stroke(.white, lineWidth: 2)
-        .background(Circle().fill(.green))
-        .frame(width: 12)
-}
-
-func initials(from name: String) -> String {
-    let names = name.split(separator: " ")
-    let initials = names.compactMap { $0.first }
-    return initials.map(String.init).joined()
 }
 
 #Preview {

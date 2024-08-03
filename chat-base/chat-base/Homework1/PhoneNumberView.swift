@@ -9,6 +9,7 @@ import SwiftUI
 
 struct PhoneNumberView: View {
     @Environment(\.dismiss) var dismiss
+    
     var body: some View {
         NavigationStack {
             Text("Новый экран")

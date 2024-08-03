@@ -7,11 +7,10 @@
 
 import SwiftUI
 
-struct StartCommunicatingButton: View {
+ struct StartCommunicatingButton: View {
+    @State private var showVerification: Bool = false
     
-    @State private var showVerification = false
-    
-    var body: some View {
+     var body: some View {
         Button {
             //action
         } label: {
@@ -32,6 +31,9 @@ struct StartCommunicatingButton: View {
                 .bold()
         }.sheet(isPresented: $showVerification) {
             PhoneNumberView()
+//            OTPTextView(onComplete: { code in
+//
+//            })
         }
     }
 }

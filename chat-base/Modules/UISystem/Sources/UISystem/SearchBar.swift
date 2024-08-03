@@ -7,10 +7,14 @@
 
 import SwiftUI
 
-struct SearchBar: View {
+public struct SearchBar: View {
     @Binding var text: String
     
-    var body: some View {
+    public init(text: Binding<String>) {
+        self._text = text
+    }
+    
+    public var body: some View {
         HStack {
             TextField("Search", text: $text)
                 .padding(7)

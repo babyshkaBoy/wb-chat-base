@@ -5,7 +5,7 @@ import Combine
 struct OTPTextField: View {
     @FocusState private var keyboardFocusField: FocusField?
     @Binding var verificationCode: String
-    @State var isAllNumberFilled: Bool = false // заполнен ли код
+    @State var isAllNumberFilled: Bool = false
     
     var pinLength = 4
     var keyboardType: UIKeyboardType = .numberPad
@@ -14,7 +14,7 @@ struct OTPTextField: View {
     var body: some View {
         ZStack {
             TextField("", text: $verificationCode)
-                .frame(width: 0, height: 0) // чтобы в центре не появлялись цифры
+                .frame(width: 0, height: 0) 
                 .font(.system(size: 0))
                 .foregroundStyle(.clear)
                 .multilineTextAlignment(.center)
