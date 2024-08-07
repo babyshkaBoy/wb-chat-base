@@ -18,6 +18,11 @@
 		E52A7BCD2C51248A00D5D8E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52A7BCC2C51248A00D5D8E2 /* ContentView.swift */; };
 		E52A7BCF2C51248C00D5D8E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52A7BCE2C51248C00D5D8E2 /* Assets.xcassets */; };
 		E52A7BD22C51248C00D5D8E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52A7BD12C51248C00D5D8E2 /* Preview Assets.xcassets */; };
+		E532D1D42C63860A0015D3E6 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E532D1D32C63860A0015D3E6 /* StartView.swift */; };
+		E532D1D62C6386260015D3E6 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E532D1D52C6386260015D3E6 /* TaskModel.swift */; };
+		E532D1D82C63864F0015D3E6 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E532D1D72C63864F0015D3E6 /* UserModel.swift */; };
+		E532D1DA2C63866B0015D3E6 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = E532D1D92C63866B0015D3E6 /* Server.swift */; };
+		E532D1DC2C6386910015D3E6 /* TaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E532D1DB2C6386910015D3E6 /* TaskService.swift */; };
 		E54474B22C358387008FE147 /* CalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54474B12C358387008FE147 /* CalendarApp.swift */; };
 		E54474C02C358413008FE147 /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54474BD2C358413008FE147 /* ScreenView.swift */; };
 		E54474C12C358413008FE147 /* ScreenView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54474BE2C358413008FE147 /* ScreenView+Extension.swift */; };
@@ -56,6 +61,11 @@
 		E52A7BCE2C51248C00D5D8E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E52A7BD12C51248C00D5D8E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E52A7BD62C5124D400D5D8E2 /* HW11_DataStructures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HW11_DataStructures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E532D1D32C63860A0015D3E6 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		E532D1D52C6386260015D3E6 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		E532D1D72C63864F0015D3E6 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		E532D1D92C63866B0015D3E6 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		E532D1DB2C6386910015D3E6 /* TaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskService.swift; sourceTree = "<group>"; };
 		E54474AF2C358387008FE147 /* Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54474B12C358387008FE147 /* CalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarApp.swift; sourceTree = "<group>"; };
 		E54474BD2C358413008FE147 /* ScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
@@ -130,6 +140,7 @@
 		E509A9042C107CD800CAFABD /* chat-base */ = {
 			isa = PBXGroup;
 			children = (
+				E532D1D22C6384480015D3E6 /* Homework15_Task,Actors */,
 				E588343D2C5A64EE0052C202 /* UISystem */,
 				E588343A2C5A506D0052C202 /* Homework14_GCD */,
 				E5EFDEE92C5EC5AD00762823 /* Homework13_GoF */,
@@ -185,6 +196,18 @@
 				E52A7BD12C51248C00D5D8E2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E532D1D22C6384480015D3E6 /* Homework15_Task,Actors */ = {
+			isa = PBXGroup;
+			children = (
+				E532D1D32C63860A0015D3E6 /* StartView.swift */,
+				E532D1D52C6386260015D3E6 /* TaskModel.swift */,
+				E532D1D72C63864F0015D3E6 /* UserModel.swift */,
+				E532D1D92C63866B0015D3E6 /* Server.swift */,
+				E532D1DB2C6386910015D3E6 /* TaskService.swift */,
+			);
+			path = "Homework15_Task,Actors";
 			sourceTree = "<group>";
 		};
 		E5384A682C2C39E600BBFFA7 /* Homework6 */ = {
@@ -421,6 +444,7 @@
 				E5869A172C231F83009F82E0 /* ContactCell.swift in Sources */,
 				E5EFDEE42C5E443900762823 /* StartCommunicatingButton.swift in Sources */,
 				E509A9162C10B73700CAFABD /* OnboardView.swift in Sources */,
+				E532D1D42C63860A0015D3E6 /* StartView.swift in Sources */,
 				E5869A0F2C22FF4D009F82E0 /* ContactsView_Tab.swift in Sources */,
 				E5869A0B2C22FF4D009F82E0 /* Contacts.swift in Sources */,
 				E52A7BBB2C511F0400D5D8E2 /* OTPTextField.swift in Sources */,
@@ -429,14 +453,18 @@
 				E58BC2872C40309A00E87DB5 /* DetailProfileView.swift in Sources */,
 				E5869A0C2C22FF4D009F82E0 /* DetailScreenView.swift in Sources */,
 				E5AEEBA52C453AE300A26598 /* Homework9_VerificationView.swift in Sources */,
+				E532D1D82C63864F0015D3E6 /* UserModel.swift in Sources */,
 				E58BC28B2C4031F400E87DB5 /* InfinityScroll.swift in Sources */,
 				E588343C2C5A50CB0052C202 /* ImageService.swift in Sources */,
+				E532D1D62C6386260015D3E6 /* TaskModel.swift in Sources */,
 				E509A9082C107CD800CAFABD /* ContentView.swift in Sources */,
 				E5EFDEEB2C5EC60100762823 /* GoF.swift in Sources */,
 				E5869A0E2C22FF4D009F82E0 /* ContactsScreenView.swift in Sources */,
 				E5869A142C23005B009F82E0 /* CustomIcons.swift in Sources */,
 				E58BC28D2C40320E00E87DB5 /* RoundedCell.swift in Sources */,
 				E58BC2882C40309A00E87DB5 /* ProfileView.swift in Sources */,
+				E532D1DC2C6386910015D3E6 /* TaskService.swift in Sources */,
+				E532D1DA2C63866B0015D3E6 /* Server.swift in Sources */,
 				E509A9062C107CD800CAFABD /* chat_baseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
